@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    max-width: 320px;
+    min-height: 75vh;
+    margin: 50px auto;
+    background-color:rgba(255, 230, 200, 0.800);
+}
+
+.container {
+    padding: 10px 0;
+    /* margin: 50px auto; */
+}
+
+.main-body h1 {
+    font-size: large;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px 15px;
+    border-radius: 20px;
+}
+
+.head h5 {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.head h2 {
+    color: white;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head img {
+    max-width: 100%;
+}
+
+.mon {
+    width: 30px;
+    min-height: 40px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.tue {
+    width: 30px;
+    min-height: 80px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.wed {
+    width: 30px;
+    min-height: 110px;
+    background-color: skyblue;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.thu {
+    width: 30px;
+    min-height: 70px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.fri {
+    width: 30px;
+    min-height: 50px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.sat {
+    width: 30px;
+    min-height: 100px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.sun {
+    width: 30px;
+    min-height: 50px;
+    background-color: crimson;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.days h6 {
+    color: lightgray;
+    font-size:small;
+    font-weight: lighter;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+    align-items:last baseline;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin: 15px 0;
+}
+
+.bottom h5 {
+    font-size: small;
+    color: lightgray;
+    margin: 10px 0;
+}
+
+.bottom h6 {
+    font-size: small;
+    margin: 10px 0;
+}
+
+.bottom .left {
+    text-align: right;
+}
+
+.bg {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.tool-tips {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}  
+
+.toll-tips {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    section{
+        max-width: 420px;
+        min-height: 50vh;
+        margin: 50px auto;
+        background-color:rgba(255, 230, 200, 0.800);
+    }
+    .container {
+        padding: 10px 0;
+        /* margin: 50px auto; */
+    }
+    .mon {
+        width: 40px;
+        min-height: 40px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    .tue {
+        width: 40px;
+        min-height: 80px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    .wed {
+        width: 40px;
+        min-height: 110px;
+        background-color: skyblue;
+        border-radius: 3px;
+    } 
+    .thu {
+        width: 40px;
+        min-height: 70px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    .fri {
+        width: 40px;
+        min-height: 50px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    .sat {
+        width: 40px;
+        min-height: 100px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    .sun {
+        width: 40px;
+        min-height: 50px;
+        background-color: crimson;
+        border-radius: 3px;
+    }
+    /* .tool-tips {
+        display: none;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }   */
+};
